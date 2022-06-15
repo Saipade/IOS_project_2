@@ -212,7 +212,8 @@ int main (int argc, char **argv) {
 
                         sem_wait(HELPED[elfID]); // waiting for help from Santa
 
-                        if (strcmp(SANTA_STATUS[0], "closing workshop") == 0 || strcmp(SANTA_STATUS[0], "Christmas started") == 0) {                          ELF_STATUS[elfID] = "taking holidays";     
+                        if (strcmp(SANTA_STATUS[0], "closing workshop") == 0 || strcmp(SANTA_STATUS[0], "Christmas started") == 0) {                          
+                            ELF_STATUS[elfID] = "taking holidays";     
                             break;    
                         }
                         

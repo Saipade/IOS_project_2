@@ -1,1 +1,3 @@
-# IOS_project_2
+# IOS project on semaphores 
+
+IOS - Operating Systems project: semaphores
